@@ -1,0 +1,30 @@
+#1.
+print('Hola UTN')
+#2.
+print(3+5.)
+#3.
+print(10-5)
+#4
+print(10-15)
+#5
+print(4*10)
+#6
+print(10/2)
+#7
+# print(10/0) #al divivir por cero la funcion da error ya que es imposible dividir entre cero#
+#8
+print((10+3)*(6+6)) # al eliminar los parentesis se da como prioridad a la multiplicacion y el resultado es distinto al inicial#
+#9
+print(10%2)
+#10
+print("10%3")
+#11
+def cuentas ():
+    variableA = 10
+    variableB = 6 
+    print(variableA + variableB)
+    print(variableA - variableB)
+    print(variableA * variableB)
+    print(variableA / variableB)
+    print(variableA // variableB)
+cuentas()
