@@ -1,0 +1,47 @@
+#1.
+nombre_de_usuario = input("ingrese su nombre: ")
+print ("hola ",nombre_de_usuario)
+#2.
+numero_1 = int(input("ingrese un numero: "))
+numero_2 = int(input("ingrese otro numero: "))
+print("las sumas de esos numeros es: ",numero_1 + numero_2)
+#3.
+nombre = input("ingrese su nombre: ")
+apellido = input("ingrese su apellido: ")
+edad = int(input("ingrese su edad: "))
+print("su nombre completo es: ",nombre,apellido,"y su edad es: ", edad)
+#4.
+nombre = input("ingrese su nombre: ")
+comision = input("ingrese su numero de comision: ")
+asignatura = input("ingrese su asignatura: ")
+docente = input("ingrese su docente: ")
+presentismo = input("¿usted estuvo presente?:")
+print("su nombre es: ",nombre,"pertenece a la comision: ",comision,"esta cursando: ",asignatura,"con el/la docente: ",docente,"¿usted asistio hoy?:  ",presentismo)
+#5.
+cuadrado = float(input("ingrese en valores numericos, el valor de uno de los lados del cuadrado: "))
+print ("su superficie es de ",cuadrado*cuadrado)
+#6.
+ancho_rectangulo = float(input("ingrese en valores numericos, el ancho del rectangulo: "))
+largo_rectangulo = float(input("ingrese en valores numericos, el largo del rectangulo: "))
+print("su superficie es de: ",ancho_rectangulo*largo_rectangulo)
+#7.
+base_triangulo = float(input("ingrese en valores numericos,el valor de la base del triangulo: "))
+altura_triangulo = float(input("ingrese en valores numericos, el valor de la altura del triangulo: "))
+print("la superficie del triangulo es de: ",(base_triangulo*altura_triangulo)//2)
+#8.
+producto = input("ingrese el nombre del producto: ")
+valor = float(input("ingrese el valor del producto: "))
+Iva = (valor) * 1.21 
+print("el valor de: ",producto,"es de: ",valor,"terminando en: ",Iva, "con el I.V.A agregado")
+#9.
+alumno = input("ingrese nombre del alumno: ")
+nota_1 = float(input("ingrese primera nota numerica: "))
+nota_2 = float(input("ingrese segunda nota numerica: "))
+nota_3 = float(input("ingrese tercera nota numerica: "))
+nota_final = ((nota_1 + nota_2 + nota_3)//3)
+print("el promedio de: ",alumno,"es de: ",nota_final)
+#10. 
+nombre = input("ingrese su nombre: ") 
+edad = int(input("ingrese su edad: "))
+años = edad + 10 
+print("En 10 años,",nombre,"tendra ",años, "años")
